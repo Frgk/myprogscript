@@ -3,6 +3,7 @@
 
 
 
+
 mess = input("Enter the text to code : ")    #Enter the text to code
 key = int(input("Entrez the key : ")) #Enter the key
 
@@ -10,8 +11,8 @@ alphabet = ['a', 'b', 'c', 'd', 'f', 'e', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
             'v', 'w', 'x', 'y', 'z']
 
 
-def letter_reco(letter, liste):  #Defining a function used to code a letter
-
+def letter_reco(letter, liste, key):  #Defining a function used to code a letter
+    key = key % 26
     i = 0
     while letter != liste[i]:
         i += 1
@@ -32,15 +33,7 @@ def main():
         if mess[i] == ' ':  #make the exception of the space character
             new_letter = ' '
         else :
-            new_letter = alphabet[letter_reco(mess[i], alphabet)]
-        new_message += new_letter
-
-    print("Coded message : ",new_message)
-
-
-main()
-on each letter of the message
-        new_letter = alphabet[letter_reco(mess[i], alphabet)]
+            new_letter = alphabet[letter_reco(mess[i], alphabet, key)]
         new_message += new_letter
 
     print("Coded message : ",new_message)
