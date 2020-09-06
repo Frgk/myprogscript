@@ -1,8 +1,10 @@
 
 #NEED TO IMPROVE THE PROGRAM
 
-mess = input("Entrez le message à coder : ")    #Enter the text to code
-key = int(input("Entrez la clé du chiffrement : ")) #Enter the key
+
+
+mess = input("Enter the text to code : ")    #Enter the text to code
+key = int(input("Entrez the key : ")) #Enter the key
 
 alphabet = ['a', 'b', 'c', 'd', 'f', 'e', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
             'v', 'w', 'x', 'y', 'z']
@@ -27,6 +29,17 @@ def main():
     new_message = str()
 
     for i in range(len(mess)):  # execute a "for" loop on each letter of the message
+        if mess[i] == ' ':  #make the exception of the space character
+            new_letter = ' '
+        else :
+            new_letter = alphabet[letter_reco(mess[i], alphabet)]
+        new_message += new_letter
+
+    print("Coded message : ",new_message)
+
+
+main()
+on each letter of the message
         new_letter = alphabet[letter_reco(mess[i], alphabet)]
         new_message += new_letter
 
