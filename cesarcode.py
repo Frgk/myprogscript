@@ -1,4 +1,5 @@
 
+#NEED TO IMPROVE THE PROGRAM
 
 mess = input("Entrez le message à coder : ")    #Enter the text to code
 key = int(input("Entrez la clé du chiffrement : ")) #Enter the key
