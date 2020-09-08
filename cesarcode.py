@@ -12,7 +12,7 @@ alphabet = ['a', 'b', 'c', 'd', 'f', 'e', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
 
 
 def letter_reco(letter, liste, key):  #Defining a function used to code a letter
-    key = key % 26
+    key = key % 26   #returns the modulus of the division between key and 26, to to handle cases where the key is greater than 26
     i = 0
     while letter != liste[i]:
         i += 1
