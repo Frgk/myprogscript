@@ -5,7 +5,7 @@
 
 
 text = input("Enter the text to code : ")    #Enter the text to code
-key = int(input("Entrez the key : ")) #Enter the key
+key = int(input("Entrez the key : ")) #Enter the key, and convert to an integer
 
 alphabet = ['a', 'b', 'c', 'd', 'f', 'e', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
             'v', 'w', 'x', 'y', 'z']
