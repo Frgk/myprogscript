@@ -10,7 +10,7 @@ alphabet = ['a', 'b', 'c', 'd', 'f', 'e', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
 
 def main():
 
-    for key in range(1,25):
+    for key in range(1,25):  #Try to decode the message with all the possible key from 1 to 25
 
         new_message = str()
 
@@ -34,7 +34,7 @@ def main():
                 new_letter = alphabet[j]
             new_message += new_letter
 
-        print("Try with a key value of " + str(key) + " : " + new_message)
+        print("Try with a key value of " + str(key) + " : " + new_message)   #Print a string with the value of the key and the message decoded with this key
 
 
 main()
