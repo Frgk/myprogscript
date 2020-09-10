@@ -6,9 +6,9 @@ liste = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', '
          '&','~','(','-','_',')','?','/',':','!','*']
 
 
-#for i in range(0,25):  #simple alphabet
+#for i in range(0,25):  #lower cases
 
-#for i in range(25,52):   #Grand alphabet
+#for i in range(25,52):   #Upper cases
 
 #for i in range(52, 62): #Numbers
 
