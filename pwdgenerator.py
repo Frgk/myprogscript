@@ -66,7 +66,7 @@ def main():
 
 
 
-    print("The generated password is : ", pwd)
+    print("The generated password is : ", pwd)        #Print the pwd 
 main()
 
 
