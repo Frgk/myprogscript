@@ -14,7 +14,7 @@ liste = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', '
 
 #for i in range(62,72):  #signals
 
-def easypwd(len):
+def easypwd(len):          #Function used to generate easy pwd
 
     j =0
     pwd = str()
