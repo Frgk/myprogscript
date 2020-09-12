@@ -40,13 +40,21 @@ def planet_size():
 def number_moons():
     return random.randint(0, 82)        #Based on the 82 Saturn's moons
 
+def planet_number():
+    chance = random.randint(0, 100)
 
-
+    if chance >=70:
+        teles = random.randint(1,22)        #Based on the 22 stars discovered by Kepler
+        num = ['b','c','d','e','f','g']     #Based on from Kepler-11b to Kepler-11g
+        return "-"+str(teles)+random.choice(num)
+    else:
+        return ''
 
 def create_planet(name):
 
     planetname = planet_name(name)
-    print("Planet Name : " + planetname)
+    planetnumber = planet_number()
+    print("Planet Name : " + planetname+planetnumber)
 
 
     temperature = temp_planet()
