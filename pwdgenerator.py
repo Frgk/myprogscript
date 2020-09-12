@@ -41,10 +41,10 @@ def hardpwd(len):
     j =0
     pwd = str()
     for j in range(len):
-        i = random.randint(0, 72)
+        i = random.choice(liste)
 
-        c = liste[i]
-        pwd += c
+        
+        pwd += i
     return pwd
 
 
