@@ -36,7 +36,7 @@ def mediumpwd(len):
         pwd += c
     return pwd
 
-def hardpwd(len):
+def hardpwd(len):          #Function used to generate the hard pwd
 
     j =0
     pwd = str()
