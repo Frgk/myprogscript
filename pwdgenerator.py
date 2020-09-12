@@ -25,7 +25,7 @@ def easypwd(len):          #Function used to generate easy pwd
         pwd += c
     return pwd
 
-def mediumpwd(len):
+def mediumpwd(len):        #Function used to generate medium pwd
 
     j =0
     pwd = str()
