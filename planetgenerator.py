@@ -100,9 +100,6 @@ def story_planet(name,number,temperature,type,size,moon,age):
             ", counting at least " + str(moon) +" moons around.",
             ". Moreover, among these " + str(moon) + " moons, one looks like the planet itself, and has an elliptical orbit approaching the planet each year.",
             ". "+ name + "  has " + str(moon) + " moons having been destroyed by meteorites over the past centuries. These moons are now, fields of lunar debris orbiting around " + name,
-
-
-
     ]
 
 
