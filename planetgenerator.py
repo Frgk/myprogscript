@@ -25,7 +25,7 @@ def planet_type(temperature):
 def planet_name(name):
 
     if name == '':
-        pre = ["Me","Mo","Ma","Mu","Re","Ra","Ro","Ru","Yo","Pa","Pu","Pr","Za","We","Gr","Gu","Gy","Ko","Ke","Be",]
+        pre = ["Me","Mo","Ma","Mu","Re","Ra","Ro","Ru","Yo","Pa","Pu","Pr","Za","We","Gr","Gu","Gy","Ko","Ke","Be","Ba","Br","Bo"]
         mid = ["is","eos","eor","eo","br","rr","r","mm","m","nn","n","ety","ci","ta","la","pp","p"]
         end = ["sir","ber","ler","per","era","ero","ro","ver","vo","yst","st","sto"]
         return random.choice(pre) + random.choice(mid) + random.choice(end)
