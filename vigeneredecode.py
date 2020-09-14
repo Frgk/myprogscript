@@ -4,7 +4,7 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
             'v', 'w', 'x', 'y', 'z']
 
 
-text = input("Enter the text to code : ")
+text = input("Enter the text to decode : ")
 key = input("Enter the key : ")
 
 
@@ -34,5 +34,5 @@ def main():
             j = 0
         else :
             j += 1
-    print("Coded message : " +new_message)
+    print("Decoded message : " +new_message)
 main()
