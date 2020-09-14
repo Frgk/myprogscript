@@ -1,4 +1,5 @@
 
+#This program can be used to cipher with the Vigenere Code and, decipher the code if the key is known
 
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
             'v', 'w', 'x', 'y', 'z']
