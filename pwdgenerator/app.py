@@ -1,5 +1,5 @@
 
-
+#I coded an "application" to adapt my pwd generator script
 
 from tkinter import *
 from tkinter import ttk
